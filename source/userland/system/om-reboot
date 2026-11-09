@@ -1,0 +1,6 @@
+#!/bin/sh
+# Request the PID1 lifecycle; never issue reboot(2) from an SSH shell.
+set -eu
+[ "$#" = 0 ] || { echo 'Usage: om-reboot' >&2; exit 2; }
+[ "$(cat /sys/kernel/hgw500_restart_handler 2>/dev/null)" = topaz-global-reset-v1 ] || { echo 'Verified HGW500 kernel restart handler unavailable' >&2; exit 3; }
+kill -TERM 1

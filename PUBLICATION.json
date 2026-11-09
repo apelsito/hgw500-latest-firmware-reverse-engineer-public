@@ -1,0 +1,448 @@
+{
+  "source_repository": "apelsito/hgw500-latest-firmware-reverse-engineer",
+  "source_commit": "01496757ae4c9e7dfd106b28fb99d8e4d206fcb0",
+  "source_default_branch": "main",
+  "files_prepared": 82,
+  "normalized_files": [
+    {
+      "path": "analysis/source-manifest.json",
+      "original_sha256": "2436588f2af467bbf64964f37c084c1af8e9abed812aa0dcf08f645969629def",
+      "export_sha256": "a94a5b4ed972589331b0882ff50f203e7033ad43421661c0c816c934abaf3e76",
+      "reason": "Personal workstation path normalization"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "AGENTS.md",
+      "reason": "Private authoring instructions"
+    }
+  ],
+  "status": "PUBLIC_SOURCE_SNAPSHOT",
+  "note": "Historical/private verification receipts remain historical. This candidate is not an exact preservation clone and does not imply a new firmware build or physical acceptance.",
+  "public_repository": "apelsito/hgw500-latest-firmware-reverse-engineer-public",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 101,
+      "sha256": "5a5ade6c7c29cfa91120a77e9dca8c495db5f26937b60635e0761daed85d6466"
+    },
+    {
+      "path": "COPYING.GPL-2.0",
+      "bytes": 18600,
+      "sha256": "8780e78a1a737e127f25a65f6d95269bffd36158dc261114de7859b490bfc5aa"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3638,
+      "sha256": "276a0ef1a1baaf34edfb93eac1156e560cb068df527d3ae000ff8faa9549cb1d"
+    },
+    {
+      "path": "analysis/artifact-manifest.json",
+      "bytes": 12914,
+      "sha256": "6a38c1fb4b4ce3151008a8e392febdcba696abdf6a5f4c0f3ef84a9a8b7c1a31"
+    },
+    {
+      "path": "analysis/build-evidence/arc-signal-test.json",
+      "bytes": 99,
+      "sha256": "0c44c053e2e2525e5faaeec8825784b676470c8eae99ead31ebb4b57a2491359"
+    },
+    {
+      "path": "analysis/build-evidence/bridge-timers-test.json",
+      "bytes": 242,
+      "sha256": "ac1c7e311b3bad6bcf05762c97e62529c36dabf9d11e45f3339d9aa5732e5d2c"
+    },
+    {
+      "path": "analysis/build-evidence/core-r1b-result.json",
+      "bytes": 9798,
+      "sha256": "5239b2a094765207a8c25911c2d36f887eb3c8e0d21a0847917ddfd65076db6a"
+    },
+    {
+      "path": "analysis/build-evidence/lifecycle-tests.json",
+      "bytes": 247,
+      "sha256": "c02f5d093a261ab10245b0bfdf3de37a5709b87e05df7cde86d989c9e0e299b1"
+    },
+    {
+      "path": "analysis/core-boot-r1-acceptance.json",
+      "bytes": 2039,
+      "sha256": "d50a7a0e98d26cca33fc9ebd56b9d2d63cec90d74fd39f4218aaab83bbf973b8"
+    },
+    {
+      "path": "analysis/pid1-rebuild.json",
+      "bytes": 801,
+      "sha256": "285b64d82d3556ccd1b707c54e762e81eccf22dbf9d13f6a7ff4af50c69cea15"
+    },
+    {
+      "path": "analysis/pid1.arc.s",
+      "bytes": 62589,
+      "sha256": "7c8785fbe24844b005393010eccb219925f7d2107568854874ed8ad6808a6741"
+    },
+    {
+      "path": "analysis/ras-structure.json",
+      "bytes": 61746,
+      "sha256": "7d779cedf7e45a7896e656d3d6a5ad452f13c71334b5cf80b4df650ab8e54c93"
+    },
+    {
+      "path": "analysis/rea-entropy.json",
+      "bytes": 115145,
+      "sha256": "b7b7987b6a69c6963cb245f4c11a97fd64d49f3a6d3c2685c7689915793e9610"
+    },
+    {
+      "path": "analysis/rea-extraction.json",
+      "bytes": 70675,
+      "sha256": "585be0924e59b76a54905244490395423e6599858f5ad5f7104f34652729bcc1"
+    },
+    {
+      "path": "analysis/rea-summary.json",
+      "bytes": 2323,
+      "sha256": "74d0cc106bb7b21936decec9d8743c4420816ab25db46bc6d51aed9f1e77c660"
+    },
+    {
+      "path": "analysis/source-manifest.json",
+      "bytes": 14504,
+      "sha256": "a94a5b4ed972589331b0882ff50f203e7033ad43421661c0c816c934abaf3e76"
+    },
+    {
+      "path": "docs/CHECKOUT_AVAILABILITY.md",
+      "bytes": 1488,
+      "sha256": "5b8719644c349bcc1622211b5b903463864a2bf0ee8be9adc8381ead74c10838"
+    },
+    {
+      "path": "docs/FIRMWARE_MAP.md",
+      "bytes": 5230,
+      "sha256": "87f6112065c9181f3be9f1cf59393c88fc1863b1d90a8faac7487d3b27f5e77c"
+    },
+    {
+      "path": "docs/HARDWARE_ARCHITECTURE.md",
+      "bytes": 4266,
+      "sha256": "c97392f0ffb088c45b895f1cb1d43cd6fea3ea3dfd02e3494134a52de448a80d"
+    },
+    {
+      "path": "docs/PROJECT_HANDOFF.md",
+      "bytes": 3017,
+      "sha256": "da80a24944982630eb6840db5cd5b61e3d88da462ec716f4681ec61337747686"
+    },
+    {
+      "path": "docs/PUBLIC_SNAPSHOT.md",
+      "bytes": 2040,
+      "sha256": "08f2e1a924bbb41ddf0820adaf34abed9e95a844f3ddfa3bae6adc40e6cf16c7"
+    },
+    {
+      "path": "docs/REFERENCE_NOTES.md",
+      "bytes": 5416,
+      "sha256": "b29f3aa3d6d79e957792072d767ba8e4c52d4a33979fba834688ccd24b31e77a"
+    },
+    {
+      "path": "docs/REPOSITORY_MAP.md",
+      "bytes": 2025,
+      "sha256": "eb0dae141c54a12b664b9aa25f37511f28dc9e4b442558ba51bc30ddaa4551ec"
+    },
+    {
+      "path": "docs/SYSTEM_ARCHITECTURE.md",
+      "bytes": 3289,
+      "sha256": "410c13e9c8c874fdb9e40e0c32082d84963c18abe659ba23494a467458ca026c"
+    },
+    {
+      "path": "docs/firmware-inventory.json",
+      "bytes": 7954,
+      "sha256": "2176eeb3c3d5d0011c8c23f257bca8391f37634043646e318089967231b52d56"
+    },
+    {
+      "path": "docs/hardware/evidence.json",
+      "bytes": 6456,
+      "sha256": "fa00f97fd2d5741dcded56a8d1bb3e7a8d6f918f795404c0e9c6ad66bf43c498"
+    },
+    {
+      "path": "docs/hardware/hgw500-processing-architecture.mmd",
+      "bytes": 583,
+      "sha256": "6be54674e256e7bd5af20070e2c49cfae077f10734b52354e7976567721ee8e6"
+    },
+    {
+      "path": "docs/hardware/hgw500-processing-architecture.png",
+      "bytes": 157066,
+      "sha256": "9b11049483af6b9823a7d27847e077bd584375a4d6f14319b597c788a6f48ab7"
+    },
+    {
+      "path": "source/core-overrides/arch/arc/kernel/reset.c",
+      "bytes": 708,
+      "sha256": "928d2887619d5bb88042cdefd71126e74f095cae37fe9972329ef8a72b7aac4e"
+    },
+    {
+      "path": "source/core-overrides/arch/arc/plat-topaz-basic/platform.c",
+      "bytes": 2995,
+      "sha256": "7f85786428f9d3c06b031edac26edd58747160b758d17e12fea8bd8115079aa9"
+    },
+    {
+      "path": "source/core-overrides/drivers/mtd/maps/physmap-core.c",
+      "bytes": 16977,
+      "sha256": "b4180071c93d67a779a34a052556547d6344a07281de3e9db9dcfb1a1cb47898"
+    },
+    {
+      "path": "source/core-overrides/readback/Makefile",
+      "bytes": 27,
+      "sha256": "ef5bbe0a1eec7e0e15244c293187e1adc68de7f2e18ad1d5b615f1bf51e279cf"
+    },
+    {
+      "path": "source/core-overrides/readback/hgw500_readback.c",
+      "bytes": 2076,
+      "sha256": "60b17f3380530c6668e534418364f42170867db6332192d9872bfa12040ec795"
+    },
+    {
+      "path": "source/kernel-overlay/arch/arc/Kconfig",
+      "bytes": 15708,
+      "sha256": "eed9ea77e11c190f5262b880b519e27d7e96db0f526f17bb19ece25ebf7b4451"
+    },
+    {
+      "path": "source/kernel-overlay/arch/arc/Makefile",
+      "bytes": 3454,
+      "sha256": "236305b1f37bfc8df4a8e11c7219f1878289f76aff9bf2cc6bcfea8a16670952"
+    },
+    {
+      "path": "source/kernel-overlay/arch/arc/include/asm/mmu-arcv2.h",
+      "bytes": 2598,
+      "sha256": "76c42a4d3c6cc4b19f5e5525259fd0a8c84bd4f1cf996d8cb1a7706309ef1476"
+    },
+    {
+      "path": "source/kernel-overlay/arch/arc/include/asm/pgtable-bits-arcv2.h",
+      "bytes": 5460,
+      "sha256": "9a92c6df45df84ac671aae9f46be481b0d8217907ef4fcdd652a12c9dce3e8de"
+    },
+    {
+      "path": "source/kernel-overlay/arch/arc/include/uapi/asm/swab.h",
+      "bytes": 1323,
+      "sha256": "8f26450812e83b9d5803df40901e67e45b3ac03a523d247d26fab71aa1c4e064"
+    },
+    {
+      "path": "source/kernel-overlay/arch/arc/kernel/intc-compact.c",
+      "bytes": 7358,
+      "sha256": "ce37e4da988159ecaa0b4d306244cd5805d875812ca3b7d93e90a0ff8184f7e5"
+    },
+    {
+      "path": "source/kernel-overlay/arch/arc/mm/cache.c",
+      "bytes": 30907,
+      "sha256": "446744ea5e32f8805188bf49ec1cbd338097e4e1e6ebeadb442c00854dc82ed6"
+    },
+    {
+      "path": "source/kernel-overlay/arch/arc/mm/tlb.c",
+      "bytes": 21155,
+      "sha256": "a52d64cf133597afea335044454018723d3e042696dd10bf39a95bcf2f4d809b"
+    },
+    {
+      "path": "source/kernel-overlay/arch/arc/mm/tlbex.S",
+      "bytes": 11526,
+      "sha256": "5f625a0ffdbcfb181a57fa9bb3784f1d3e7aacee19fe697961709a2b31813b15"
+    },
+    {
+      "path": "source/kernel-overlay/arch/arc/plat-topaz-basic/Kconfig",
+      "bytes": 788,
+      "sha256": "2035c03fc886849868c38b6c8f50c4249b8fc766bd85da168368aedf5143b5d8"
+    },
+    {
+      "path": "source/kernel-overlay/arch/arc/plat-topaz-basic/Makefile",
+      "bytes": 20,
+      "sha256": "888fe3732d3ab1d604cc7253de830072456b874ce68832057979b875571a4c24"
+    },
+    {
+      "path": "source/kernel-overlay/arch/arc/plat-topaz-basic/platform.c",
+      "bytes": 385,
+      "sha256": "fa98974daf7be61ffa9666597021b0b8e8bb4145b8f7fd276710f35f6cf04bbd"
+    },
+    {
+      "path": "source/kernel-overlay/drivers/irqchip/Kconfig",
+      "bytes": 20897,
+      "sha256": "ad2317196b341aa5a010b4a991e7045b2aeacb30d3798924e3a9af8b120e375b"
+    },
+    {
+      "path": "source/kernel-overlay/drivers/irqchip/Makefile",
+      "bytes": 6946,
+      "sha256": "c989a9223082c85a775b52d85a8b1666aa411de100581201daa03936b66d3c7c"
+    },
+    {
+      "path": "source/kernel-overlay/drivers/irqchip/irq-qtn-topaz-uart-basic.c",
+      "bytes": 5326,
+      "sha256": "9095bbbb1eba53a92e9406c39ab5fba1d69ecc604130c46312abb2bf172f9260"
+    },
+    {
+      "path": "source/kernel-overlay/drivers/pci/controller/Makefile",
+      "bytes": 2967,
+      "sha256": "ca85ea139897f432646526837f55d3cbcef1b547f0ce72218ebdfd91b02c569f"
+    },
+    {
+      "path": "source/kernel-overlay/drivers/pci/controller/pcie-qtn-topaz.c",
+      "bytes": 7690,
+      "sha256": "ca46f394486eccf1b4fd24699ec8e2dc3e6960ccfe783b30d9ece02335a05204"
+    },
+    {
+      "path": "source/kernel-overlay/include/linux/netdevice.h",
+      "bytes": 184946,
+      "sha256": "b149a958c75f17e685e18f9bbf6969959eb8d67b140aafad19012fe2fec71f7d"
+    },
+    {
+      "path": "source/kernel-overlay/include/linux/openmitrastar_bridge.h",
+      "bytes": 1176,
+      "sha256": "fafac0b567cad17824713499988aecf256c16f89da591e372251e4477fce11fb"
+    },
+    {
+      "path": "source/kernel-overlay/include/linux/openmitrastar_qtn_skb.h",
+      "bytes": 1834,
+      "sha256": "2a61b183457bbe9bc05d13a99e88202e9d94c307948c0b2b5c970389c012b5cc"
+    },
+    {
+      "path": "source/kernel-overlay/include/linux/skbuff.h",
+      "bytes": 157644,
+      "sha256": "5edbedd91f41c81e7aad995511001db1505b062d81aa0d230b8953ce6eed44a4"
+    },
+    {
+      "path": "source/kernel-overlay/include/linux/soc/qtn/topaz-ethernet.h",
+      "bytes": 8526,
+      "sha256": "59e06f782d8afa0eb0da5db7a9723d28c82678fe422dd51f34d7914b8a9f18c9"
+    },
+    {
+      "path": "source/kernel-overlay/net/bridge/br_fdb.c",
+      "bytes": 43896,
+      "sha256": "f5f19ce2887cfb03f68a4654030629444ca12dbcfed4550e38ad5e09b562c277"
+    },
+    {
+      "path": "source/kernel-overlay/net/bridge/br_forward.c",
+      "bytes": 9958,
+      "sha256": "928d1e71783bb2d57e27f1d9d7c39ba75a296aff36d76ac9d0718a9b1e92c965"
+    },
+    {
+      "path": "source/kernel-overlay/net/core/dev.c",
+      "bytes": 353078,
+      "sha256": "b6654f34f28a282067ca149b1347325fe4b5067483c40cd825747d1a5050e27e"
+    },
+    {
+      "path": "source/kernel-overlay/net/wireless/Kconfig",
+      "bytes": 7356,
+      "sha256": "4ec168a7f54f9f12b6b1b82bb30ae1ea0ae15676c07cb944f02a6294344bf9c0"
+    },
+    {
+      "path": "source/kernel-r2-overlay/arch/arc/Kconfig",
+      "bytes": 15708,
+      "sha256": "eed9ea77e11c190f5262b880b519e27d7e96db0f526f17bb19ece25ebf7b4451"
+    },
+    {
+      "path": "source/kernel-r2-overlay/arch/arc/Makefile",
+      "bytes": 3454,
+      "sha256": "236305b1f37bfc8df4a8e11c7219f1878289f76aff9bf2cc6bcfea8a16670952"
+    },
+    {
+      "path": "source/kernel-r2-overlay/arch/arc/plat-topaz-basic/Kconfig",
+      "bytes": 788,
+      "sha256": "2035c03fc886849868c38b6c8f50c4249b8fc766bd85da168368aedf5143b5d8"
+    },
+    {
+      "path": "source/kernel-r2-overlay/arch/arc/plat-topaz-basic/Makefile",
+      "bytes": 20,
+      "sha256": "888fe3732d3ab1d604cc7253de830072456b874ce68832057979b875571a4c24"
+    },
+    {
+      "path": "source/kernel-r2-overlay/drivers/irqchip/Kconfig",
+      "bytes": 20897,
+      "sha256": "ad2317196b341aa5a010b4a991e7045b2aeacb30d3798924e3a9af8b120e375b"
+    },
+    {
+      "path": "source/kernel-r2-overlay/drivers/irqchip/Makefile",
+      "bytes": 6946,
+      "sha256": "c989a9223082c85a775b52d85a8b1666aa411de100581201daa03936b66d3c7c"
+    },
+    {
+      "path": "source/kernel-r2-overlay/drivers/pci/controller/Makefile",
+      "bytes": 2967,
+      "sha256": "ca85ea139897f432646526837f55d3cbcef1b547f0ce72218ebdfd91b02c569f"
+    },
+    {
+      "path": "source/pid1/init-autostart2g.c",
+      "bytes": 13073,
+      "sha256": "31f925c871b048388a964ec886540930f3cf24ad6a58c2e768797864c5cb94cf"
+    },
+    {
+      "path": "source/pid1/init-core-r1.c",
+      "bytes": 15791,
+      "sha256": "1233ef74fb7b09e0e26840278dc593c69d6927c884c541cb243d7a032f3f0d4e"
+    },
+    {
+      "path": "source/userland/network/om-net",
+      "bytes": 23699,
+      "sha256": "56096a7aaeee503e5dd3b062e8ae5cc5d80442d94bf2fc05bf4b439bec93b492"
+    },
+    {
+      "path": "source/userland/network/om-net-dhcp",
+      "bytes": 279,
+      "sha256": "46da8e3f82cfc855ebe19790d91c7db0587bbcce7e180bb92ac3a1a1f9c919cc"
+    },
+    {
+      "path": "source/userland/network/om-net-udhcpc",
+      "bytes": 40,
+      "sha256": "c5a87313194dd882cdcd33bb03ca0da6bd50f5370eba348cad321c3800f2754b"
+    },
+    {
+      "path": "source/userland/network/om-net-udhcpd",
+      "bytes": 40,
+      "sha256": "8b602dbcbfd58d1c67b602c51c792230ffaef6951fb5552eb8fd39b69baa2bf8"
+    },
+    {
+      "path": "source/userland/system/om-boot-network",
+      "bytes": 1384,
+      "sha256": "995b930702a46d188a70bdd8e244b60aebbd4d4f067653d755758110fbeb1575"
+    },
+    {
+      "path": "source/userland/system/om-reboot",
+      "bytes": 321,
+      "sha256": "18941233be4df34aab6111538fb4416722a475160869708588ecaf14286190b3"
+    },
+    {
+      "path": "source/userland/system/om-shutdown",
+      "bytes": 1255,
+      "sha256": "260065d2dde323db057dc3dca1b662e1a85b83637505e1d195eaedefd2660d3e"
+    },
+    {
+      "path": "source/userland/system/om-upstream-dhcp",
+      "bytes": 2856,
+      "sha256": "6282c82f21879cfa94dc3630bf040fc729123b4624d8c3418cb5b8d1745e6a23"
+    },
+    {
+      "path": "tools/export_rea_metadata.py",
+      "bytes": 2299,
+      "sha256": "b0d8874cf3100237f1ba4ff6eddf236efc795ca0355f4a091916fb894d0fab4e"
+    },
+    {
+      "path": "tools/inspect_ras.py",
+      "bytes": 6378,
+      "sha256": "624a12fb8f953f3c1b9884f6ecbfcba8d538c0468fd4a1ebe88050143e90cf94"
+    },
+    {
+      "path": "tools/prepare_boot_init.py",
+      "bytes": 5986,
+      "sha256": "02a25611a3ed40705ec2511c7dcefa7a074e6dbe3ff2e044a7ad583420802905"
+    },
+    {
+      "path": "tools/run_rea.py",
+      "bytes": 2855,
+      "sha256": "b6428fcaadf41b4fb5491dc5eb2456bbcd8493caf77aa88047025e0797d6a69c"
+    },
+    {
+      "path": "tools/verify_pid1.py",
+      "bytes": 2962,
+      "sha256": "7dc21785d1fd1b504e53c3c1f1d39cbe1165d2dd4f55b7fc3322dc9f4915eaa5"
+    },
+    {
+      "path": "tools/verify_public_export.py",
+      "bytes": 612,
+      "sha256": "a6e93c83fe924f71c3a7597e3da723ab7df3da945daa9aca1c8515ca0dbab096"
+    },
+    {
+      "path": "tools/verify_repository.py",
+      "bytes": 1067,
+      "sha256": "c5a9668288a6996f5e8888187512c02de1a7d8aa703fb755ad1858d191b5f78e"
+    }
+  ],
+  "actions_enabled": false,
+  "submodule_scope": "Public project dependencies are navigational snapshots, not the historical release pins.",
+  "public_submodules": []
+}

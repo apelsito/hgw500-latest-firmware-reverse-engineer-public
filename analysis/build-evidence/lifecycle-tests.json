@@ -1,0 +1,10 @@
+{
+  "status": "PASS_BOOT_LIFECYCLE_HOST",
+  "results": [
+    "RESET_REGISTER_SEQUENCE_PASS",
+    "EMAC_SHUTDOWN_RUNNING_STOPPED_REPEATED_PASS",
+    "PID1_BLOCKED_SIGTERM_SIGNALFD_PASS"
+  ],
+  "ARC_execution": false,
+  "hardware_accessed": false
+}

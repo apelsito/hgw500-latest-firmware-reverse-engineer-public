@@ -1,0 +1,28 @@
+{
+  "source_sha256": "1233ef74fb7b09e0e26840278dc593c69d6927c884c541cb243d7a032f3f0d4e",
+  "compiler_sha256": "3918a0da3c9f2cfde359f6fed1d0df19e737438dfd2cc60edae63f2dcbf14263",
+  "rebuilt_pid1_sha256": "f9a545a1d4b6e05cd40eca7abab6395336bfe35c7b123088eeac9c2f2b0d34b7",
+  "expected_pid1_sha256": "f9a545a1d4b6e05cd40eca7abab6395336bfe35c7b123088eeac9c2f2b0d34b7",
+  "byte_digest_equal": true,
+  "hardware_accessed": false,
+  "binary_executed": false,
+  "compilation_arguments": [
+    "-mcpu=arc700",
+    "-mno-lock",
+    "-mno-atomic",
+    "-mno-swape",
+    "-static",
+    "-nostdlib",
+    "-nostartfiles",
+    "-ffreestanding",
+    "-fno-builtin",
+    "-fno-stack-protector",
+    "-fno-pic",
+    "-Os",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-Wl,-e,_start",
+    "-Wl,--build-id=none"
+  ]
+}

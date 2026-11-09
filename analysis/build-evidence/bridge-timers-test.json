@@ -1,0 +1,13 @@
+{
+  "test": {
+    "stdout": "BEFORE 1500 200 2000\nTEST 400\n100\n600\n",
+    "stderr": "",
+    "exit_code": 0
+  },
+  "restored": {
+    "stdout": "1500\n200\n2000\n",
+    "stderr": "",
+    "exit_code": 0
+  },
+  "flash_writes": 0
+}

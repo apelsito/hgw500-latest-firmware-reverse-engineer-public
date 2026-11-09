@@ -1,0 +1,74 @@
+{
+  "schema": "openmitrastar.rea-run-summary/v1",
+  "input_bytes": 5583159,
+  "input_sha256": "0bf0515a9be9a1be4641914477522877c1e59c4c4f9f887f699a065081692968",
+  "hardware_accessed": false,
+  "raw_evidence_distribution": "local ignored out",
+  "operations": [
+    {
+      "operation": "version",
+      "exit_code": 0,
+      "stdout_sha256": "4c7d245d1e1c2c70e26c15a790671f5aacaacfffafbcbe8e86ce9df0bbd835bf",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "version": "6.8.0"
+    },
+    {
+      "operation": "inspect-artifact",
+      "exit_code": 1,
+      "stdout_sha256": "8995da5138b2400b71632023f730a4b3c55d0934c696c6d7eb148267eb26539d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "Analysis failed",
+      "code": "target_unavailable",
+      "category": "unsupported_target",
+      "message": "Cannot open artifact: unsupported binary format."
+    },
+    {
+      "operation": "inspect-byte-entropy",
+      "exit_code": 0,
+      "stdout_sha256": "d363f3933a045ec8c76419dd9f9d9ebca74733b0b972bcdd55e6f43605555fdf",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_top_level_keys": [
+        "evidence_id",
+        "subject",
+        "provider",
+        "analysis_profile",
+        "predicate_type",
+        "operation",
+        "parameters",
+        "raw_result",
+        "normalized_result",
+        "confidence",
+        "authority",
+        "environment",
+        "limitations",
+        "relationship_coverage",
+        "locations",
+        "evidence_links"
+      ]
+    },
+    {
+      "operation": "extract-firmware",
+      "exit_code": 0,
+      "stdout_sha256": "a863aae750e30cf14bc161d1463cda2a1a2df9a847e6a2c3a461c2db08d3fc3d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "json_top_level_keys": [
+        "evidence_id",
+        "subject",
+        "provider",
+        "analysis_profile",
+        "predicate_type",
+        "operation",
+        "parameters",
+        "raw_result",
+        "normalized_result",
+        "confidence",
+        "authority",
+        "environment",
+        "limitations",
+        "relationship_coverage",
+        "locations",
+        "evidence_links"
+      ]
+    }
+  ]
+}

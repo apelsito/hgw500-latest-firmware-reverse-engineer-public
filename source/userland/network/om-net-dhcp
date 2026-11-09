@@ -1,0 +1,6 @@
+#!/bin/sh
+# udhcpc hook: fields are validated by om-net; never source shell input.
+set -u
+case "${1:-}" in bound|renew|deconfig|nak|leasefail) :;; *) exit 1;; esac
+CONTROLLER=${OM_NET_CONTROLLER:-$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)/om-net}
+exec "$CONTROLLER" _dhcp "$1"

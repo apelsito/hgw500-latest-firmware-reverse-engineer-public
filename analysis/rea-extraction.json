@@ -1,0 +1,1425 @@
+{
+  "source_evidence_sha256": "a863aae750e30cf14bc161d1463cda2a1a2df9a847e6a2c3a461c2db08d3fc3d",
+  "provider": {
+    "id": "unblob",
+    "name": "Unblob",
+    "version": "26.6.4"
+  },
+  "engine": {
+    "name": "unblob",
+    "version": "26.6.4",
+    "executable_sha256": "a1de6cbe4caeffeb494924eb6efccadf7617a6038a4e5cac34f3f4ae5eaa6d8b",
+    "worker_count": 1
+  },
+  "selection": {
+    "offset": 0,
+    "length": 5583159,
+    "sha256": "0bf0515a9be9a1be4641914477522877c1e59c4c4f9f887f699a065081692968"
+  },
+  "coverage": "partial",
+  "total_regular_files": 213,
+  "excluded_private_path_count": 14,
+  "files": [
+    {
+      "relative_path": "firmware.bin_extract/0-8192.unknown",
+      "size": 8192,
+      "sha256": "a30b955f334190f284861090cf44eb8b02eeb1e2bc4ce3ef40a9a1c1c03ceb2e",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed",
+      "size": 13844384,
+      "sha256": "af10901a7ed029ed044eaff9bd024d398cc4cefd43a8e0d60b2e5541c0b5aed1",
+      "analysis_depth": 1,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/0-8192.unknown",
+      "size": 8192,
+      "sha256": "92edad7f44ebee9f59a2f4a2f7f6f0e7bd832e4e6dffa03d5d1d55ac27d34faf",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/bin/busybox",
+      "size": 984332,
+      "sha256": "d4969ee5b551c650bd18686afb9f4edc9357e4526543a7de0d6400e5f40cdcc5",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/etc/group",
+      "size": 10,
+      "sha256": "7a696fcfba89a55a6d73fa1a03c7f071fad2141340027b17a25db249e26b9be8",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/etc/hosts",
+      "size": 20,
+      "sha256": "081ef9d5367595d16e30b4b4549d9f43537320508b4ce0788963e10e4f808857",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/etc/lyoko/capabilities.json",
+      "size": 7511,
+      "sha256": "9e898131e1418f7fd33cd89f5ad71deb2bb0cddf88fac44d0668afaa0cff29ad",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/etc/lyoko/frontend.env",
+      "size": 891,
+      "sha256": "843374613175c1d21481bd24830784df591ce194115d6f7cb35ed4e79e1d5993",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/etc/lyoko/keys/feed-ed25519.pub",
+      "size": 113,
+      "sha256": "1f4e339f5fedccbd9ae88efca3aec6d4964087ab9fbd38738ea40eb633d86d94",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/etc/lyoko/keys/feed-ed25519.raw",
+      "size": 32,
+      "sha256": "01ed300cc2b2a01d63df141693eb66409a9ce8e516635bcfc1345d4a23f70c08",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/etc/lyoko/package-abi",
+      "size": 149,
+      "sha256": "955797f28914cd32b488133e5f122d807705c092f89e598c489aee93b03ffe82",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/etc/lyoko/web-next.env",
+      "size": 366,
+      "sha256": "18c70da13747fdd5b7780c06ca3087905bcaaf43338c8e71279dd4d68b13f3bb",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/etc/lyoko/web-next.json",
+      "size": 1447,
+      "sha256": "0d32c52cea46c0dd3a28b59ff72de7528a4b0909e881683f9f5e44689ccb08bc",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/etc/om73-web.conf",
+      "size": 368,
+      "sha256": "c870b41b8b5c5611262b5f7174927278356eba806397321d5d1a91f705f829ee",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/etc/openmitrastar/release",
+      "size": 93,
+      "sha256": "ad75703d63a66ed61480c2996f6eb6fe346433ad375df0e14eb867681c7b73b9",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/etc/udhcpd-wlan.conf",
+      "size": 294,
+      "sha256": "2c10e24a10c7768bced32f113fc7e0269ef86ff24ee814e4dd35ce58a6f2f1b0",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/init",
+      "size": 13300,
+      "sha256": "f9a545a1d4b6e05cd40eca7abab6395336bfe35c7b123088eeac9c2f2b0d34b7",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/firmware/auc_driver.nomu.0.bin",
+      "size": 33342,
+      "sha256": "c10018f4fe384d753a800bbbcd5ef3c85c568d0852c221009063282d30fd85f6",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/firmware/qtn_driver.qtn_ruby.0.bin",
+      "size": 1094927,
+      "sha256": "71dcd32849f122c09397490914227af6f77e51c34d15615028faa3d0fabb0fe4",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/firmware/rdsp_driver.0.bin",
+      "size": 246244,
+      "sha256": "87c882910d87cd29ba2004c4154e9240291aaad6aedb0ff4d90c7a5570be79fd",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/firmware/regulatory.db",
+      "size": 6348,
+      "sha256": "7e236caecd939c8ec98be4870bf30422f28ffef2565a38aaaa2d9ddabd0c2641",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/firmware/regulatory.db.p7s",
+      "size": 1085,
+      "sha256": "50332f0db09b8bcc719235ec4985c27377f2cc2f42abb7b5dcf951866c5a888a",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/firmware/rtlwifi/rtl8192eefw.bin",
+      "size": 31818,
+      "sha256": "c6e5beeeb2a716ce417a9ede5974d0876b18ebf0368c195da8a181f6ba6d9b4b",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/ld-uClibc-1.0.59.so",
+      "size": 25572,
+      "sha256": "690ac71cff3111b4e04c4945dbe00c37cf262b783ce57baeca2493d3eb0c6103",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/libblobmsg_json.so",
+      "size": 9460,
+      "sha256": "2c424815e0ba7bf3c80d7be0d56f00eecdc93c398208701f1ba5ffc1ffb6c062",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/libjson-c.so.5.5.0",
+      "size": 50684,
+      "sha256": "6b1975c26f707446017527620c465cefd9e981d4faf11b8ae6094a2a06e96482",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/libjson_script.so",
+      "size": 17620,
+      "sha256": "ac3fc6b43ef552e72f0abe3ae2b859d04007bd7da98269eddea6b3ed259e4991",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/libnl-tiny.so.1",
+      "size": 26152,
+      "sha256": "4e61505869358c953109c3c211bf8942e2dfff80a427234cd0e13675ef43bd42",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/libuClibc-1.0.59.so",
+      "size": 534536,
+      "sha256": "9ed827655864c333134e26bd5485f000dff73d311a369e66d2ae081f58882234",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/libubox.so",
+      "size": 50496,
+      "sha256": "b0f1663399fc297cc534d8963f0503fd3e01d5627350489d307d364f180795b6",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/libustream-ssl.so",
+      "size": 17904,
+      "sha256": "952a56a9b9d88c2cf73fc96958fa2a006364b4573d9673a18a33ac21c3153fc0",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/lib/libwolfssl.so.46.0.0",
+      "size": 946612,
+      "sha256": "9e533ae4fa84af05b6c66de5f8660dca8d39132c628f35f508b008eb7823b2f4",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/aead.ko",
+      "size": 8636,
+      "sha256": "3a57eeafca87237505a4c9dcd63bd2adb9cdde2ca5f6160498c364200910737e",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/aes.ko",
+      "size": 19236,
+      "sha256": "981eaaded1b59fb6ea34c5aa9b6d4dc3566a4339d2d1bf9dcd30fa88a8c8a44b",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/bridge.ko",
+      "size": 183812,
+      "sha256": "01535a1498439e88cddafc91032e2d1b755ce58a8378b5a75d0327bfb96cfefc",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/btcoexist.ko",
+      "size": 170816,
+      "sha256": "570eeaade280fb1eebac288f531589c9cabe60037c176ce1cd1741dc9be08b7e",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/ccm.ko",
+      "size": 14140,
+      "sha256": "ad9de497e5a44a58b95c78df47e82f0af775ed57c12b00de6af61af60aca2c15",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/cfg80211.ko",
+      "size": 391460,
+      "sha256": "6b1211c5413e92444a87f04af06d0b12f86ddd0469adb33657bddfbc804ec6cf",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/cmac.ko",
+      "size": 5856,
+      "sha256": "b18fa78aa13ddc0d64e80e0ce1db920acf77fdd83edf4d8459a5ac68184aa69a",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/crypto_skcipher.ko",
+      "size": 23240,
+      "sha256": "03922eb391d585104509fa909fb72fe160e5457c323761ff9e723dc9fc757fa8",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/ctr.ko",
+      "size": 6896,
+      "sha256": "0c3aa070efd3bb62a704870c3d8b9311779aef8d44c78db8092daf32210bc104",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/ecb.ko",
+      "size": 5540,
+      "sha256": "fe54adb5b2f81564ac4008ec87abe8bbeedc0ac4929774605a9b36640f2519c9",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/firmware_class.ko",
+      "size": 14380,
+      "sha256": "f2e8bf21c68fcf9af2e59ecb383394ff5bad9354d94b3dfceb83701f3468c995",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/gcm.ko",
+      "size": 14528,
+      "sha256": "17fe5b10f9b86949130a0d6e401ed8244231ba12c700b1eac1f43cce3938cc5d",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/gpio.ko",
+      "size": 10204,
+      "sha256": "34299cb472d6a54b80f8bacd38d05a6915ebe3ddfe9aab3841815754607b72a2",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/libaes.ko",
+      "size": 28652,
+      "sha256": "7d26ca01d56564ee755a0ebd1c2a2a18f83900a543990defd821f7dfbe3fec3f",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/libarc4.ko",
+      "size": 3144,
+      "sha256": "04c63fb0288472245a4c2d3c2e2d93f6469d9c692d1eb2ccafbe32ac209b20ca",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/libgf128hash.ko",
+      "size": 6396,
+      "sha256": "c7d9ecf0115092ec11e71f39f6a023e92182a79cc0b87196d66d464516a8130e",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/llc.ko",
+      "size": 8792,
+      "sha256": "87c63c7a8cd201b9a8c905930e61b6d83bf394f27ab6c237ff6f58f9e0b95a8b",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/mac80211.ko",
+      "size": 606880,
+      "sha256": "11dfd38669cfcced152ca115756f40701a144fd05a7fb8bb93e0347eeb452e10",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/om73_hgw_status_leds.ko",
+      "size": 5796,
+      "sha256": "4e59bfed534e478b6b227e9a5438a5ab95e2dabf97c6c7e24c5cf6b2604d9a16",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/rtl8192ee.ko",
+      "size": 115764,
+      "sha256": "acf90efcbf17b310143ddd6efad4231f84485903ffad42787effd1ea5f36b88f",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/rtl_pci.ko",
+      "size": 49928,
+      "sha256": "0a5eadd166044c4c822319c8aac893286a59439f887bb56af97121215a030336",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/rtlwifi.ko",
+      "size": 97708,
+      "sha256": "bf4f8695cebfc72d05cb187e5505c322157edd48546aadaf71000375a35be505",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/sha256.ko",
+      "size": 11552,
+      "sha256": "15371e1548c1eb8f9bfd21fdd51db3a15ece9eca40c25403c7a02be1932e5ad1",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/modules/stp.ko",
+      "size": 4060,
+      "sha256": "d99cb61b7eb2d3cb07ba34269ed4ab41ea35d583fd4b2650d1311585ee70ea15",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/opt/mitramarbles/LICENSE",
+      "size": 1083,
+      "sha256": "ed30fcc88b0d8e6e4a34cb83a888f1f5f733fadd4871b1bb8040526f8b1d8b11",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/opt/mitramarbles/README.md",
+      "size": 7704,
+      "sha256": "c3b63663314fd3603cc2b3ab700532630bba12e047e154b8f6aa3b759fbd182e",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/opt/mitramarbles/THIRD_PARTY_NOTICES.md",
+      "size": 2658,
+      "sha256": "e88ab3804f24329846f64dacfe136fd49d4aa8f7ae810c3af6b5e2cd2a63b3ba",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/opt/mitramarbles/web/favicon.svg",
+      "size": 457,
+      "sha256": "48f29333f9a27060634ebfb9ed4245bbddd399a374f210275691b79958205ba5",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/opt/mitramarbles/web/game.js",
+      "size": 26766,
+      "sha256": "9ed12a62e3903fb927b8187eedffb33b3b59364adbca2b2a02cbdd87f93bf7f9",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/opt/mitramarbles/web/index.html",
+      "size": 6254,
+      "sha256": "231657e09e770ba4e41b3d61a1f1739fb305ae7d82c8b6da519caefdaf9960c2",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/opt/mitramarbles/web/qr.js",
+      "size": 59554,
+      "sha256": "344391965dc66dff34fbe83abeb613fc1d123cd2ed6b3174bfea3464bd220e29",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/opt/mitramarbles/web/sim.js",
+      "size": 3919,
+      "sha256": "1670dde665f42a5288a7050f747bcace0a9ea8ddd8c7b7e40ff98c9500fe04bb",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/opt/mitramarbles/web/stream.js",
+      "size": 4121,
+      "sha256": "4b5e29e84f4b9506200e13a77be4a77309f67ba82b91d10dff21d9de103df75b",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/opt/mitramarbles/web/style.css",
+      "size": 16577,
+      "sha256": "a657361045ef5d0dbffbc11a1abca0c9bda37da7ab6f8aa6913380b595af2642",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/qtn-topaz-emac-eth73.ko",
+      "size": 31628,
+      "sha256": "02bdf4096de2ee8c00723c744141058464baee8afad59eb7cdcba46b75280098",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/run/openmitrastar/secrets/web.password.sha256",
+      "size": 65,
+      "sha256": "5d593bd270ceaacbdb64f01152dc2c14c064c7264cbec2e6161f0bd69c6fae9d",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/sbin/om73-init-r2",
+      "size": 11496,
+      "sha256": "30e9afddf669e5fcfca708a23bf618b7a8fe507cb8597b713387b421589ea72d",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/bin/jshn",
+      "size": 17756,
+      "sha256": "81379b0ebfa326d2a5356d8c689647f93a852555905e075e9ab64d85c2ef6ad6",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/libexec/mitramarbles-real",
+      "size": 25864,
+      "sha256": "ba1517680440ca0c6994e7eb5dcd2e2aa5030e0a3bbef65b85e5166b3316dc6d",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/libexec/openmitrastar/om-api-v1",
+      "size": 50333,
+      "sha256": "6379aac4e4f2354b01e2710d258ffda4800afb54d26e960e484ebf5d6dd74b47",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/libexec/openmitrastar/om-boot-network",
+      "size": 1384,
+      "sha256": "995b930702a46d188a70bdd8e244b60aebbd4d4f067653d755758110fbeb1575",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/libexec/openmitrastar/om-oem-cgi",
+      "size": 25704,
+      "sha256": "97a6c0bee05c6d2d42521d8bf9a88441dfbb38117f2b4c9f4d5d4ec54d20c63e",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/libexec/openmitrastar/om-reboot",
+      "size": 321,
+      "sha256": "18941233be4df34aab6111538fb4416722a475160869708588ecaf14286190b3",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/libexec/openmitrastar/om-shutdown",
+      "size": 1255,
+      "sha256": "260065d2dde323db057dc3dca1b662e1a85b83637505e1d195eaedefd2660d3e",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/libexec/openmitrastar/om-upstream-dhcp",
+      "size": 2856,
+      "sha256": "6282c82f21879cfa94dc3630bf040fc729123b4624d8c3418cb5b8d1745e6a23",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/sbin/iw",
+      "size": 199020,
+      "sha256": "38451d3440f473595d14d244fb329cb83be22476bf0f2ab3328c03d651fe84e6",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/sbin/iwconfig-qtn",
+      "size": 74860,
+      "sha256": "5ebc31cb2ca69a1fbe1e0882f4aadba248e131a3b153c1d86d210ba53890c18b",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/sbin/iwpriv-qtn",
+      "size": 66672,
+      "sha256": "94c0d675a2d18fd0c259eb713e6a69d99fe6b2f73f2f838dc2fca2c2bf5f4edd",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/sbin/mitramarbles",
+      "size": 442,
+      "sha256": "f6305ac8c7976cab4215fdb9e2903552540f6c5ea4630ac97e291d260c1170ea",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/sbin/om73-assets-mount",
+      "size": 8991,
+      "sha256": "bf9e44b8af6bdb4baab4a6bb05f2c29a4a4be2a99810ef01430a9b1ce3b32e83",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/sbin/om73-games-entry",
+      "size": 5971,
+      "sha256": "b7f510c2fae98e732f80d8514da3ae36e0442fcad9d81378c832e2b6f51c21f8",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/sbin/om73-http-ready",
+      "size": 13380,
+      "sha256": "6906c707240924692ccc61aca25cd9d437b4e9b6dfaa560a839b5cc19c1a8a60",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/sbin/om73-leds-ready",
+      "size": 317,
+      "sha256": "7d08d95f7b0b1b5949b019a472f8669bba1679f4de5c1e2a71ebbe21044935a4",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/sbin/om73-marbles-tls",
+      "size": 17676,
+      "sha256": "0db088cdf5b580f852abe0abfb9b9e93c77eda392a22f8d7192ff36be2343f6e",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/sbin/uhttpd",
+      "size": 42912,
+      "sha256": "43a0fea8072cfd725ae5803bc7fc4bfd94bb734d8a321b8490945d9563c62d1c",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/share/arcade-entry/arcade-index.cgi",
+      "size": 104,
+      "sha256": "d79e0536044045bb4bd3b9d35be189683f427c8af5094eb57de0565476ea7830",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/share/arcade-entry/casefold.cgi",
+      "size": 2377,
+      "sha256": "3db1dbd72b6714687eee687535373bd5ff894517ab3faf064ff5fe1e4189933b",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/share/arcade-entry/doom-index.cgi",
+      "size": 133,
+      "sha256": "a325bcf75937cb8fe63907f62e600c4006018a62848b4f5c4452f875cbd0f5fc",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/share/arcade-entry/index.cgi",
+      "size": 104,
+      "sha256": "d79e0536044045bb4bd3b9d35be189683f427c8af5094eb57de0565476ea7830",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/share/arcade-entry/index.html",
+      "size": 900,
+      "sha256": "5b5cf4e47b0dad11c51ed45752008648766f8ed3dcdaec8a537f51c5b270a4d4",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/share/arcade-entry/marbles-index.cgi",
+      "size": 151,
+      "sha256": "66e59a4e11016ddef6c538bc8ad57e42042275b90d69d5eb7555f955e78dcc08",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/share/openmitrastar/web/app.css",
+      "size": 28621,
+      "sha256": "596856a23e0af08efbd3db70565f463833cfd9e220c45e6795396e7cbad9c258",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/usr/share/openmitrastar/web/dashboard.html",
+      "size": 670,
+      "sha256": "e14d10e8a72bbba8680096523505e37f54f56c3023431bc9c7b908c03618259a",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Arcade/index.cgi",
+      "size": 104,
+      "sha256": "d79e0536044045bb4bd3b9d35be189683f427c8af5094eb57de0565476ea7830",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Arcade/index.html",
+      "size": 900,
+      "sha256": "5b5cf4e47b0dad11c51ed45752008648766f8ed3dcdaec8a537f51c5b270a4d4",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Doom/GPL-2.0.txt",
+      "size": 17895,
+      "sha256": "aef8b4222b79d0dbf6bf17cfff71c90a6a6bb8917a4162abe417b469ed22da2e",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Doom/PROVENANCE.json",
+      "size": 1404,
+      "sha256": "87981c33bcaec86ebecd5e585692cfb6a8b8a7c90fa180565d4de1e79c0da277",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Doom/chocolate-doom.js.xz",
+      "size": 48032,
+      "sha256": "4a8f1e33da790a45c2b4dddb63a6363dfb5c05555bb5fe369212b4ee996ebaae",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Doom/chocolate-doom.wasm.xz",
+      "size": 499548,
+      "sha256": "93742d9d18fc7b88696dda8813779f8b2cba2231d625777501963c41ebd36e41",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Doom/doom1.wad.xz",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Doom/fflate-LICENSE.txt",
+      "size": 1069,
+      "sha256": "805f6cb28bb8b6d3a0badd83c93bccd9671fa01a3b4b92b7042b0743325ac243",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Doom/index.cgi",
+      "size": 133,
+      "sha256": "a325bcf75937cb8fe63907f62e600c4006018a62848b4f5c4452f875cbd0f5fc",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Doom/index.html",
+      "size": 8702,
+      "sha256": "9898eae750333c9f8caf5a7db42aa7542e4c1d81f3770fcdfa9abb7d19777e9c",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Doom/source-equivalent.patch",
+      "size": 1228,
+      "sha256": "4ee4bc3f0a1a90bcf3450531ef19c1214afdce5783e7b30d81484ec71b10777a",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Doom/upstream-engine.txt",
+      "size": 478,
+      "sha256": "bf1e6fafb1519c5d8e5ee0f75df7b40e2e1269f035e25f8cb8edf7383df7b75f",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Doom/xz-loader.js",
+      "size": 5268,
+      "sha256": "692bab3b9cf458e34bd8c0dcf9baf359460b8c6b13475444231fa0ec17095322",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Doom/xzwasm.min.js",
+      "size": 19832,
+      "sha256": "fb7e7a0e39df438276f290dd15865734d1b81674084cfa36ef0b77042391df9b",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/Marbles/index.cgi",
+      "size": 151,
+      "sha256": "66e59a4e11016ddef6c538bc8ad57e42042275b90d69d5eb7555f955e78dcc08",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/__traffic.bin",
+      "size": 65536,
+      "sha256": "7daca2095d0438260fa849183dfc67faa459fdf4936e1bc91eec6b281b27e4c2",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/__traffic.cgi",
+      "size": 294,
+      "sha256": "3fe089928e1d2e90a3d8eddcebff12f24b81faeb1875dcd2841a4f0fe31fb3ae",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/advanced.cgi",
+      "size": 91,
+      "sha256": "a3e1c084b6421ad902dd0c2c228d23ff9977524ca5ebcf9d1cbe20af78682141",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/status",
+      "size": 85,
+      "sha256": "538aac7b60020006dac997139fe59c237f9496ea0d0077d3dae6ca28162b986c",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/capabilities",
+      "size": 66,
+      "sha256": "1223de089834f0e7a4e00be17742174971beec49f6dd45b0bff6d6c94d42bb85",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/clients",
+      "size": 61,
+      "sha256": "6139a1ff643628b89202cb3cfea94aa63f4faa2b421ed48609dadf991b1f5bfd",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/config/apply",
+      "size": 66,
+      "sha256": "2897dd1291c17f124e1514597c154e30e3ae270d193362d8cf57bc1ee519d81a",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/config/commit",
+      "size": 67,
+      "sha256": "e4c561c99b4a64f0185def0da1c75203d6a064468e211aa7cf98ff36d165e4f1",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/config/rollback",
+      "size": 69,
+      "sha256": "bf4426ac8e3f5d632089d8cbae8f8773d4cde9cf76b8e24268046c09345433d1",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/config/status",
+      "size": 67,
+      "sha256": "4d7c6fee1d510a88046923a6e297b4e923ae194a5aa6915870af1299983090bc",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/diagnostics",
+      "size": 65,
+      "sha256": "69483a4e0e4df5c3dde22326c9a25e15ce0cf983c249db45971edbd983357384",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/firmware",
+      "size": 62,
+      "sha256": "ff7179a3359be0f3187e8ee4b3b463cc07dff3aebfe7d68d7b4ad3069c3f0cd0",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/frontend",
+      "size": 62,
+      "sha256": "def95c2dcfac3fae90aab951566a7c8db62e2d0b85efc5a626d1ac252b5fffef",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/hardware",
+      "size": 62,
+      "sha256": "4010ba8058f82522ea6e49c9773d39c0d8128f717e7c89c1d9096b8127e65ccb",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/hardware-led-test",
+      "size": 71,
+      "sha256": "cfdad3cfd63e0fa914dce3c33640ff02bcd5b4f73de3f2045aec1929066ea5cd",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/network",
+      "size": 61,
+      "sha256": "e8562934c79d974feaf638e0e4eb02730a75a61cefbe75ced14f5a5d145d7356",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/packages",
+      "size": 62,
+      "sha256": "00bfd16743509b38aadb5b7b10e88eadfe9abe68338a96913e218688ee25919d",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/privacy",
+      "size": 61,
+      "sha256": "15cb184c0115d0db71e428575250dd57ff2469e64f33fe29493820c17b374b34",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/radios/2g",
+      "size": 166,
+      "sha256": "c0de5d4ecb3a6f0892dcd053ee4b51b5878d04f9defd467b265a3403cca87e52",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/radios/5g",
+      "size": 166,
+      "sha256": "328ca7eb95445cf93515a9b03e5b3ab5efde2a6c6581c63a921416af9440aef2",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/session",
+      "size": 61,
+      "sha256": "303eabee890b93ef3681c3f8e56738e227570d1bae030efed7b7e2961998c3db",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/ssh",
+      "size": 57,
+      "sha256": "a903598a0a20c5074778210454fe78aa6e6b54e3aa5f7d686800c9310c52a56c",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/status",
+      "size": 60,
+      "sha256": "3e786a0ac59f8dee2c6d14f737ae05690ac9f3c4c0e0bb0874dad787bc67f732",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/api/v1/storage",
+      "size": 61,
+      "sha256": "6b3e7b2a0c3067063a8221421e654205eb4f019fdc70e287abdedc6c19d704fb",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/app.css",
+      "size": 31312,
+      "sha256": "14629d67bc0fbac483685fe44b36582e73469b71380d554a6fa747b1e9f18172",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/app.js",
+      "size": 84290,
+      "sha256": "e9ab4a650246901f83f02c54e01635908dedd9bd2f0491851892f1415a0e90fa",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/arcade-casefold.cgi",
+      "size": 2377,
+      "sha256": "3db1dbd72b6714687eee687535373bd5ff894517ab3faf064ff5fe1e4189933b",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/assets/logo.svg",
+      "size": 285,
+      "sha256": "e54895f156fd5bbdef35e8843bda093e41ab0fa0c5a3356713ceef5ce7ac5d67",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/assets/lyoko-next/chunk-J586-Yk_.js",
+      "size": 59904,
+      "sha256": "eb89ca06325ae4de114dc849097ad30d2d76d3a18a6fe38861919fe0d83577e9",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/assets/lyoko-next/index-CbEX_i9y.css",
+      "size": 51662,
+      "sha256": "42c6dcdc135c7ee2d9c178de27b66a9b1c5333328951ed4e0776fbc6b4215a92",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/assets/lyoko-next/lyoko-DAz-_heN.js",
+      "size": 89542,
+      "sha256": "59dfb9c3f0d3bd15d467911ad5010c728c1594527f734359ba22e403d36bf0f6",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/assets/movistar-logo.svg",
+      "size": 7779,
+      "sha256": "22b795b493baf397b124626fc553876f8b305770c3e4bf7fa91b4c168a876daa",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/assets/movistar-m.png",
+      "size": 13279,
+      "sha256": "fb74f3ef4b598c26abc2991a41200a00ed45dcf50ea102c3b707320837da827a",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/assets/router-label-help-sanitized.jpg",
+      "size": 39651,
+      "sha256": "2b563b3b61be93e73ff0660f61eeca0e7d43a9b4f7e5309aba322b9895b61547",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/assets/telefonica-logo.svg",
+      "size": 3739,
+      "sha256": "8a37ea584e890b3ee7d1208579b7b2222b66012373576cbd19805da5cfaee9e1",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/backup.cgi",
+      "size": 89,
+      "sha256": "8ccd12a148d7a25c596f45e301ca39257ddadb35d47cff9d09973a6d643396a4",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/branding/logo.svg",
+      "size": 285,
+      "sha256": "e54895f156fd5bbdef35e8843bda093e41ab0fa0c5a3356713ceef5ce7ac5d67",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/branding/manifest.json",
+      "size": 217,
+      "sha256": "df634231970370eb9f7d26c3002f94e4cf187b3eb783aa47099c10ddf89306f5",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/capabilities.css",
+      "size": 1503,
+      "sha256": "b3f79bff41243ce142a3b2ee957664eddf33833c7f1b0b095d2253ddbededc52",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/cgi-bin/backup-info",
+      "size": 90,
+      "sha256": "cb75437491932de36fb04dc548f164ede0a3c277d10aebe693e27de16c34ce58",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/cgi-bin/config",
+      "size": 85,
+      "sha256": "3df96abbc34af77dbc53f37c56e44a8b82d0adaefb19285e5c046297316ce8e1",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/cgi-bin/status",
+      "size": 85,
+      "sha256": "538aac7b60020006dac997139fe59c237f9496ea0d0077d3dae6ca28162b986c",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/css/demo.css",
+      "size": 2594,
+      "sha256": "74dfedf3ae8780cff582e82da22fb9376d210094457ce955fe81fc78408135ae",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/css/style.css",
+      "size": 23258,
+      "sha256": "ccbc4daa3b23349fa7672928640e18bcda3cd9ed08bdc7cf5ee62d3b9a5cfe15",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/css/ui.switchbutton.min.css",
+      "size": 5234,
+      "sha256": "03826b21699fdfea8083866c37afe2a317bb999ebf95af8051a7583715761b5d",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/dashboard.cgi",
+      "size": 68,
+      "sha256": "c45347d9589bb3b377ea4ff4f2519f8c5c9784aba01967954cc9db3c1e19818c",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/f313-console.css",
+      "size": 8068,
+      "sha256": "bc0b65693a9767be8070dd3e40e27509c86e957e62d918950b97e47f6efe69b5",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/firmware.cgi",
+      "size": 91,
+      "sha256": "bf204fee978c0bf20280d23dcf6f86ccdf0f94958d42b946d820f5755337bf2c",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/font/MovistarHeadline_Bold/movistarheadline-bold-webfont.eot",
+      "size": 32174,
+      "sha256": "6f2a2968ad0a036153e08ad96f0f4346f7aeab954fd92aae47d787cd956ae832",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/font/MovistarHeadline_Bold/movistarheadline-bold-webfont.svg",
+      "size": 131095,
+      "sha256": "5de0edb14c138fb5b420a60df9743d846df906c112df57e72719f1b26c92b74b",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/font/MovistarHeadline_Bold/movistarheadline-bold-webfont.ttf",
+      "size": 72596,
+      "sha256": "c51d0452facc1efb1531207fa9e11e1c1c057fd2900ac6a3493b0c3fbe592585",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/font/MovistarHeadline_Bold/movistarheadline-bold-webfont.woff",
+      "size": 34280,
+      "sha256": "436c6052d2f0dc9fc063f06cae2aa78b67278c08ac0a1bfa384a2e0c3d137631",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/font/MovistarHeadline_Bold/stylesheet.css",
+      "size": 473,
+      "sha256": "c7eca28f0e4caadad23c8554043e47116867ea59ea4682e5d7102ae6aee2413a",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/font/MovistarText_Regular/movistartext-regular-webfont.eot",
+      "size": 27731,
+      "sha256": "f4d095a299c711c6f126e0aee79245fe34d16497f7f5236c95181da675b673c0",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/font/MovistarText_Regular/movistartext-regular-webfont.svg",
+      "size": 109221,
+      "sha256": "ec73cc96f816d98d2fe752844072bf3ccc02bad578ac603a665bb6164ee1c567",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/font/MovistarText_Regular/movistartext-regular-webfont.ttf",
+      "size": 61440,
+      "sha256": "eaa0eb90267ee8532249e39980f4c231075678172ad60aea168466b510c702a5",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/font/MovistarText_Regular/movistartext-regular-webfont.woff",
+      "size": 30236,
+      "sha256": "7b2891a4e48b63f31a78b7c168699a6d4b7ad152a41c8024ef55d39a82737e87",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/font/MovistarText_Regular/stylesheet.css",
+      "size": 464,
+      "sha256": "de1de763fc35b07189364a36a283e1e03e9c23d78b46e6598ada166518c73659",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/getinfo.cgi",
+      "size": 90,
+      "sha256": "92bfd9827d3f23e93dc40a325cfbac42b703e544b8b105c7ff3b5927ce0b3747",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/images/loading.gif",
+      "size": 6033,
+      "sha256": "4ec76617814754c7c550fabd14147cf5206dfcd7f4b94341a088531588dddf65",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/img/help_img1.jpg",
+      "size": 78661,
+      "sha256": "a7e5d9b165efcdf16f880b81ddd8f96bb0fea0bea0b4fc3ffcc5a7e926a4cb13",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/img/home.png",
+      "size": 1425,
+      "sha256": "a338bc5ae50f347ce856fb2104988bc4ab520681ff10eb002d1daa1e243afeef",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/img/id_pro_bg.jpg",
+      "size": 1925,
+      "sha256": "14a29997325ced226994fb16e8fffd07c2b5d7d0f00271ed2739aa6aad8be18d",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/img/logo.png",
+      "size": 9851,
+      "sha256": "826fdf2131bdd55c9918d709e636f647514d59abac93a67d71b34fe57d2916ee",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/img/meun.png",
+      "size": 993,
+      "sha256": "51da3f7b55de596300a30691371e5abf55fcbf40265c4dcd331ae8f89326262f",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/img/u13.png",
+      "size": 76450,
+      "sha256": "7e1bcfedeb81ca38b59f452af7b799bd57eca2331e7e07bef237122587c95a3b",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/img/u13m.png",
+      "size": 40907,
+      "sha256": "8895221d03872408bf0fa89d79e3addada37a9fd68d8e6003053ca3c7f06062c",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/img/u13ms.png",
+      "size": 30953,
+      "sha256": "99b763ea460abf23f1e69958b62736cb2095031eb6e9be53f382bc027d07ad4f",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/img/u15.png",
+      "size": 8049,
+      "sha256": "e4615a32b98bcc5d10ccede9abd1e911c0354e851df0de308ac9d93910df9a3f",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/img/x2.png",
+      "size": 1279,
+      "sha256": "86193269030a339375deba8c428805d230adba64f329d1e2c31a2b4e52e8ed5e",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/img/x3.png",
+      "size": 1258,
+      "sha256": "f0a2b9548c417aa42ce906b003493ed08a2a8e0f848a8a887793a9736192b77f",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/index.cgi",
+      "size": 88,
+      "sha256": "3783b74b2ad3c40df5f2fa03e329ddd74e4b70fbc34b40539cf8fe854ac62e5d",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/index.html",
+      "size": 210,
+      "sha256": "1db77347bb5543a79b689ac8d5af80cb6f91a44e1d4d9ccd6ed9c6c07052f3ee",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/lan.cgi",
+      "size": 86,
+      "sha256": "9a1c6d5b5317c40b745241d0dee346168e3e3e06deb6095811973570b59bea22",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/layout-fixes.css",
+      "size": 156,
+      "sha256": "ace1f53a940fb4b5fb02d60c6845079bca61995a618b14de6007579fdd6e2408",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/login.css",
+      "size": 3865,
+      "sha256": "9cd74ad08f931534ac07c963beb3d1192d69d81d8cfe4e0850ed9a9c5261b31b",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/login.html",
+      "size": 2196,
+      "sha256": "99246625062703c4edb364a443c6b4863807776558dedb726f0f155638ca0aed",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/logout.cgi",
+      "size": 89,
+      "sha256": "fee2e70d3b671520c5471770e955fa9e9c23c8d1193ff5c4afc6100946d97dc2",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/openmitrastar-oem.css",
+      "size": 1828,
+      "sha256": "6dae2c8570da7cffcf1d60e55bb5486a8e37836521561154ccc700266f1df463",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/openmitrastar-oem.js",
+      "size": 1622,
+      "sha256": "5e10ca7ddbe7aa0a2bd4961b6d71516ac9e559489a997d398419141e98e77365",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/sysinfo.cgi",
+      "size": 90,
+      "sha256": "a30502a17dfad896d36dec88f92261b0c3a1fdaf1657b77a2c5cc440e83809e5",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/wifi24g.cgi",
+      "size": 90,
+      "sha256": "d68c7d0e1991472843bb22511d11db39b3e88e6dfe0c2d2d74dd89a8d25ed3a2",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/wifi5g.cgi",
+      "size": 89,
+      "sha256": "4aa7363e97b556212fb05e7fda537d7a33ec4650f2f0e5feea791f821bf0a146",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/wifi5g_adv.cgi",
+      "size": 93,
+      "sha256": "a5c4a473d5627dc896938cd7e8e56a7d6d140bc4e5b361d0debdf7b8e7a71c9d",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/wifi5g_sta.cgi",
+      "size": 93,
+      "sha256": "2635b12205f1a2314cdd3333f82ca79324e6e4b107eab5fabf074ad99dcb7b20",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/wizard_help.cgi",
+      "size": 94,
+      "sha256": "5a15aea075df6d9e97b95b9c6961f367ce910e408a7f798bcec2399b639ae4b3",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/wps24_info.cgi",
+      "size": 93,
+      "sha256": "5b8289461bf6f4c7eee8ba8bc1260aa4de16e67652c85b043021b9b2ed068502",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/8192-9871360.cpio_portable_ascii_extract/www/wps5g_info.cgi",
+      "size": 93,
+      "sha256": "82c85d7a7c9d50604a9eeb4fb65e0840c68f4410781058c10245b396ac744b21",
+      "analysis_depth": null,
+      "original_file_range": null
+    },
+    {
+      "relative_path": "firmware.bin_extract/8192-5583159.lzma_extract/lzma.uncompressed_extract/9871360-13844384.unknown",
+      "size": 3973024,
+      "sha256": "ca6c1648a97279d3274826a8f9bb6af5374a2af2c2d4d10d608b1ff816082c74",
+      "analysis_depth": null,
+      "original_file_range": null
+    }
+  ],
+  "limitations": [
+    "Signature matches and reported sizes do not establish partition validity, encryption or runtime mappings. Binwalk may infer unknown lengths before emitting its report.",
+    "Only Linux is supported by this integration. One worker, inherited per-process address-space/file-size/CPU limits and a deadline constrain execution; staging byte and entry budgets are polled and may transiently overshoot. Limits are not aggregate process-memory or filesystem quotas.",
+    "Unblob's default sandbox and skip rules remain enabled. Missing external extractors, unknown chunks, encrypted chunks and depth limits yield partial coverage. Extracted code is never executed; only regular files are published, without executable permission bits.",
+    "extraction_gaps lists regions that were carved or left unextracted and names extractor dependencies the producer reported as missing. A listed gap does not mean the target is corrupt or that a retained region is empty.",
+    "The actual launcher executable is hashed. Interpreter, shared libraries and installed Python package dependencies are not independently attested; source revision remains unknown for caller-supplied builds.",
+    "Symlink link_target values are read from Unblob's extracted tree, not from the firmware's filesystem metadata. Unblob rewrites absolute targets relative to the extraction root, so a relative link_target may have been stored as an absolute path in the image."
+  ]
+}

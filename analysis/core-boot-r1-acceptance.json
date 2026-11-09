@@ -1,0 +1,55 @@
+{
+  "schema": "openmitrastar.programmed-core-boot-release/v1",
+  "status": "PASS_PROGRAMMED_RAM_RECOVERY_RESTART_COLD_BOOT_AND_WIFI_INTERNET",
+  "device": "HGW-500BNA-QCv2 A2",
+  "evidence_date": "2026-11-03",
+  "kernel_release": "7.3.0-openmitrastar-radio73-v1",
+  "product_release": "lyoko-linux73-core-boot-r1",
+  "unit_specific_image": true,
+  "image_body_distribution": "local-only",
+  "image": {
+    "path": "firmware.ras.bin",
+    "bytes": 5583159,
+    "sha256": "0bf0515a9be9a1be4641914477522877c1e59c4c4f9f887f699a065081692968",
+    "crc32": "c4d35713",
+    "prefix_headroom_bytes": 577225
+  },
+  "kernel_pair_sha256": "1efa797d6868cd3de9b3077d1cbfdc727b19b3e7d9cb65ffe61b84fa7059da8e",
+  "PID1_sha256": "f9a545a1d4b6e05cd40eca7abab6395336bfe35c7b123088eeac9c2f2b0d34b7",
+  "normal_write_range": {
+    "start": "0x7e0000",
+    "end_exclusive": "0xd40000",
+    "aligned_bytes": 5636096
+  },
+  "physical_checks": {
+    "RAM_boot": true,
+    "exact_RAM_candidate_ordered_restart": true,
+    "read_only_safety_recovery_console": true,
+    "programmed_frame_readback_byte_equal": true,
+    "whole_flash_expected_hash": "4ba970a3efa7aa180b67fa642f4e025842916696ad9a6a5527c2f6e398ab6846",
+    "protected_and_store_byte_equal": true,
+    "boot_from_flash_readback": true,
+    "normal_reboot_from_flash": true,
+    "cold_boot_from_flash": true,
+    "wifi_client_internet_owner_confirmed": true,
+    "DHCP_renewal": true,
+    "gateway_internet_and_DNS": true,
+    "HTTPS_root_200": true,
+    "Doom_asset_HTTPS_sha256": true,
+    "unauthenticated_admin_403": true
+  },
+  "timing": {
+    "ordered_restart_SSH_HTTPS_seconds": 38.54,
+    "cold_boot_PID1_observed_seconds": 27.84,
+    "cold_boot_SSH_HTTPS_observed_by_seconds": 41.25,
+    "cold_network_probe_resolution": "approximately 6-8 seconds"
+  },
+  "bootenv_writes": 0,
+  "full_port_complete": false,
+  "pending": [
+    "5GHz physical integration and lifecycle",
+    "editable persistent configuration",
+    "AP/Videobridge selector",
+    "long-duration and multi-client campaign"
+  ]
+}

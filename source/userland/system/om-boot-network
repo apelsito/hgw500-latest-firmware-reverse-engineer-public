@@ -1,0 +1,42 @@
+#!/bin/sh
+# Core wired AP profile. Configuration and identity come from the private rootfs.
+set -eu
+BB=/bin/busybox
+case "${1:-}" in
+    wired)
+        $BB dmesg -n 4
+        for module in llc stp bridge; do
+            $BB insmod "/modules/$module.ko"
+        done
+        ip addr add 127.0.0.1/8 dev lo
+        ip link set dev lo up
+        $BB brctl addbr br0
+        # IEEE 802.1D timer minima: keep loop protection on both wired ports.
+        # Set a consistent hello/max-age/forward-delay tuple before enabling STP.
+        $BB brctl sethello br0 1
+        $BB brctl setmaxage br0 6
+        $BB brctl setfd br0 4
+        $BB brctl stp br0 on
+        for port in eth0 eth1; do
+            $BB brctl addif br0 "$port"
+            ip link set dev "$port" up
+        done
+        ip addr add 192.168.1.90/24 dev br0
+        ip link set dev br0 up
+        ;;
+    wifi)
+        # hostapd joins the AP to the bridge; no DHCP server on the home LAN.
+        config=/run/hostapd-test.conf
+        [ -f "$config" ] && [ ! -L "$config" ]
+        $BB sed '/^bridge=/d' "$config" > "$config.boot"
+        printf '\nbridge=br0\n' >> "$config.boot"
+        chmod 600 "$config.boot"
+        mv "$config.boot" "$config"
+        ip link set dev wlan0 up
+        ;;
+    leds)
+        $BB insmod /modules/gpio.ko
+        $BB insmod /modules/om73_hgw_status_leds.ko
+        ;;
+    *) exit 2;;
+esac

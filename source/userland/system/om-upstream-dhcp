@@ -1,0 +1,70 @@
+#!/bin/sh
+# DHCP management on br0, retaining the existing 192.168.1.90 rescue address.
+# Only this client's labelled address/route are changed; no local DHCP server.
+set -eu
+BB=/bin/busybox
+D=/run/openmitrastar/upstream
+[ "${interface:-}" = br0 ] || exit 2
+umask 077
+mkdir -p "$D"
+valid_ip() {
+    printf '%s\n' "$1" | $BB awk -F. 'NF!=4{exit 1}{for(i=1;i<=4;i++)if($i!~/^[0-9]+$/||$i>255||(length($i)>1&&substr($i,1,1)=="0"))exit 1}'
+}
+clear_owned() {
+    if [ -f "$D/gateway" ]; then
+        IFS= read -r previous < "$D/gateway"
+        valid_ip "$previous" || exit 3
+        ip route del default via "$previous" dev br0 metric 420 2>/dev/null || :
+        rm -f "$D/gateway"
+    fi
+    if [ -f "$D/address" ]; then
+        IFS= read -r previous < "$D/address"
+        valid_ip "$previous" || exit 3
+        [ "$previous" = 192.168.1.90 ] || ip addr del "$previous/24" dev br0 2>/dev/null || :
+        rm -f "$D/address"
+    fi
+    if [ -f "$D/resolv-before" ]; then
+        cp "$D/resolv-before" /etc/resolv.conf
+    elif [ -f "$D/resolv-missing" ]; then
+        rm -f /etc/resolv.conf
+    fi
+}
+case "${1:-}" in
+    deconfig|nak|leasefail)
+        clear_owned
+        echo OM_UPSTREAM_WAITING
+        ;;
+    bound|renew)
+        # This basic image deliberately retains its established home-LAN
+        # management profile. Other subnets need the general om-net migration.
+        valid_ip "${ip:-}" && [ "${subnet:-}" = 255.255.255.0 ] || exit 4
+        case "$ip" in 192.168.1.*) :;; *) exit 4;; esac
+        host=${ip##*.}; [ "$host" -gt 0 ] && [ "$host" -lt 255 ] || exit 4
+        set -- ${router:-}
+        [ "$#" -ge 1 ] || exit 4
+        gateway=$1
+        valid_ip "$gateway" || exit 4
+        case "$gateway" in 192.168.1.*) :;; *) exit 4;; esac
+        host=${gateway##*.}; [ "$host" -gt 0 ] && [ "$host" -lt 255 ] || exit 4
+        [ "$gateway" != "$ip" ] && [ "$gateway" != 192.168.1.90 ] || exit 4
+        count=0
+        for server in ${dns:-}; do valid_ip "$server" || exit 4; count=$((count+1)); done
+        [ "$count" -ge 1 ] && [ "$count" -le 8 ] || exit 4
+        [ ! -L /etc/resolv.conf ] || exit 4
+        if [ ! -f "$D/resolv-before" ] && [ ! -f "$D/resolv-missing" ]; then
+            if [ -e /etc/resolv.conf ]; then cp /etc/resolv.conf "$D/resolv-before"; else : > "$D/resolv-missing"; fi
+        fi
+        clear_owned
+        if [ "$ip" != 192.168.1.90 ]; then
+            ip addr add "$ip/24" dev br0 label br0:omboot
+        fi
+        printf '%s\n' "$ip" > "$D/address"
+        ip route add default via "$gateway" dev br0 metric 420 src "$ip"
+        printf '%s\n' "$gateway" > "$D/gateway"
+        : > "$D/resolv-next"
+        for server in $dns; do printf 'nameserver %s\n' "$server" >> "$D/resolv-next"; done
+        mv "$D/resolv-next" /etc/resolv.conf
+        echo OM_UPSTREAM_BOUND
+        ;;
+    *) exit 2;;
+esac

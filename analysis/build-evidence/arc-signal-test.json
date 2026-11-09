@@ -1,0 +1,5 @@
+{
+  "stdout": "ARC_SIGNALFD_PASS\nARC_SIGNAL_TEST_EXIT=0\n",
+  "stderr": "",
+  "exit_code": 0
+}

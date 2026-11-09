@@ -1,0 +1,30 @@
+#!/bin/sh
+# Called by PID1 after terminating/reaping userspace. No flash writes.
+set -eu
+BB=/bin/busybox
+[ "${1:-}" = prepare ] || exit 2
+[ "$(cat /sys/kernel/hgw500_restart_handler 2>/dev/null)" = topaz-global-reset-v1 ] || exit 3
+# 5 GHz has a separate firmware/DMA lifecycle which is not integrated yet.
+[ ! -d /sys/module/qdrv ] || { echo OM_SHUTDOWN_UNSUPPORTED_QDRV >&2; exit 4; }
+echo OM_SHUTDOWN_RADIOS
+for port in /sys/class/net/*; do
+    [ -d "$port/wireless" ] || [ -e "$port/phy80211" ] || continue
+    ip link set dev "${port##*/}" down
+done
+echo OM_SHUTDOWN_NETWORK
+for port in /sys/class/net/*; do
+    name=${port##*/}
+    [ "$name" != lo ] || continue
+    ip link set dev "$name" down
+done
+echo OM_SHUTDOWN_SYNC
+$BB sync
+# Rootfs/tmpfs are volatile; real writable filesystems must remount read-only.
+# A failure stops the reset. Never force-unmount a filesystem with pending I/O.
+while read -r source target type options rest; do
+    case ",$options," in *,rw,*) :;; *) continue;; esac
+    case "$type" in rootfs|tmpfs|ramfs|devtmpfs|proc|sysfs|devpts|cgroup|cgroup2|debugfs|tracefs|securityfs|configfs|pstore|mqueue) continue;; esac
+    $BB timeout 10 $BB mount -o remount,ro "$target"
+done < /proc/mounts
+$BB sync
+echo OM_SHUTDOWN_READY
